@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2693180A1B10E990A0DCBF48 /* libPods-TrendRoadChartsKitSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CE391382A19CC208A70011 /* libPods-TrendRoadChartsKitSample.a */; };
+		59C3867B799B97517363EE98 /* libPods-TrendRoadChartsKitSampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAC6BD724F3DFE9D5AD74FD2 /* libPods-TrendRoadChartsKitSampleTests.a */; };
+		EA7747B521F3101600C6A4DE /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = EA7747B021F3101600C6A4DE /* readme.txt */; };
+		EA7747B621F3101600C6A4DE /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = EA7747B221F3101600C6A4DE /* readme.txt */; };
+		EA7747B721F3101600C6A4DE /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = EA7747B421F3101600C6A4DE /* readme.txt */; };
+		EA7747BA21F3109700C6A4DE /* LTLogTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7747B921F3109700C6A4DE /* LTLogTool.m */; };
+		EA7747BD21F3124E00C6A4DE /* NSArray+LTTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7747BC21F3124E00C6A4DE /* NSArray+LTTool.m */; };
+		EA7747C021F3162200C6A4DE /* NSDictionary+LTTool.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7747BF21F3162200C6A4DE /* NSDictionary+LTTool.m */; };
+		EA88F5A121F303C600CA3569 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA88F5A021F303C600CA3569 /* AppDelegate.m */; };
+		EA88F5A421F303C600CA3569 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA88F5A321F303C600CA3569 /* ViewController.m */; };
+		EA88F5A721F303C600CA3569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA88F5A521F303C600CA3569 /* Main.storyboard */; };
+		EA88F5A921F303C800CA3569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA88F5A821F303C800CA3569 /* Assets.xcassets */; };
+		EA88F5AC21F303C800CA3569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA88F5AA21F303C800CA3569 /* LaunchScreen.storyboard */; };
+		EA88F5AF21F303C800CA3569 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA88F5AE21F303C800CA3569 /* main.m */; };
+		EA88F5B921F303C800CA3569 /* TrendRoadChartsKitSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA88F5B821F303C800CA3569 /* TrendRoadChartsKitSampleTests.m */; };
+		EA88F5C421F303C800CA3569 /* TrendRoadChartsKitSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA88F5C321F303C800CA3569 /* TrendRoadChartsKitSampleUITests.m */; };
+		F0EA92FCC1D94DB5809A8BF2 /* libPods-TrendRoadChartsKitSampleUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADD2B49562D9859BF08FBE2 /* libPods-TrendRoadChartsKitSampleUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA88F5B521F303C800CA3569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA88F59421F303C600CA3569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA88F59B21F303C600CA3569;
+			remoteInfo = TrendRoadChartsKitSample;
+		};
+		EA88F5C021F303C800CA3569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA88F59421F303C600CA3569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA88F59B21F303C600CA3569;
+			remoteInfo = TrendRoadChartsKitSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1ADD2B49562D9859BF08FBE2 /* libPods-TrendRoadChartsKitSampleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TrendRoadChartsKitSampleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B48591800DFDF6A5DD229F /* Pods-TrendRoadChartsKitSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrendRoadChartsKitSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrendRoadChartsKitSample/Pods-TrendRoadChartsKitSample.debug.xcconfig"; sourceTree = "<group>"; };
+		572268F082E8C67531C6428B /* Pods-TrendRoadChartsKitSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrendRoadChartsKitSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrendRoadChartsKitSampleTests/Pods-TrendRoadChartsKitSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B2BC8DB29EB0591956F9B82B /* Pods-TrendRoadChartsKitSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrendRoadChartsKitSampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrendRoadChartsKitSampleUITests/Pods-TrendRoadChartsKitSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DAC6BD724F3DFE9D5AD74FD2 /* libPods-TrendRoadChartsKitSampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TrendRoadChartsKitSampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF14E9FB3D2F6F9F97A3BBF /* Pods-TrendRoadChartsKitSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrendRoadChartsKitSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrendRoadChartsKitSample/Pods-TrendRoadChartsKitSample.release.xcconfig"; sourceTree = "<group>"; };
+		E2CE391382A19CC208A70011 /* libPods-TrendRoadChartsKitSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TrendRoadChartsKitSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA7747B021F3101600C6A4DE /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		EA7747B221F3101600C6A4DE /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		EA7747B421F3101600C6A4DE /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
+		EA7747B821F3109700C6A4DE /* LTLogTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTLogTool.h; sourceTree = "<group>"; };
+		EA7747B921F3109700C6A4DE /* LTLogTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTLogTool.m; sourceTree = "<group>"; };
+		EA7747BB21F3124E00C6A4DE /* NSArray+LTTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+LTTool.h"; sourceTree = "<group>"; };
+		EA7747BC21F3124E00C6A4DE /* NSArray+LTTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LTTool.m"; sourceTree = "<group>"; };
+		EA7747BE21F3162200C6A4DE /* NSDictionary+LTTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LTTool.h"; sourceTree = "<group>"; };
+		EA7747BF21F3162200C6A4DE /* NSDictionary+LTTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LTTool.m"; sourceTree = "<group>"; };
+		EA88F59C21F303C600CA3569 /* TrendRoadChartsKitSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrendRoadChartsKitSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA88F59F21F303C600CA3569 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA88F5A021F303C600CA3569 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA88F5A221F303C600CA3569 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA88F5A321F303C600CA3569 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA88F5A621F303C600CA3569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA88F5A821F303C800CA3569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA88F5AB21F303C800CA3569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA88F5AD21F303C800CA3569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA88F5AE21F303C800CA3569 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA88F5B421F303C800CA3569 /* TrendRoadChartsKitSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrendRoadChartsKitSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA88F5B821F303C800CA3569 /* TrendRoadChartsKitSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrendRoadChartsKitSampleTests.m; sourceTree = "<group>"; };
+		EA88F5BA21F303C800CA3569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA88F5BF21F303C800CA3569 /* TrendRoadChartsKitSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrendRoadChartsKitSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA88F5C321F303C800CA3569 /* TrendRoadChartsKitSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrendRoadChartsKitSampleUITests.m; sourceTree = "<group>"; };
+		EA88F5C521F303C800CA3569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4C769916324535CBD355A3E /* Pods-TrendRoadChartsKitSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrendRoadChartsKitSampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrendRoadChartsKitSampleUITests/Pods-TrendRoadChartsKitSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F56651E960EF55A77EE838D2 /* Pods-TrendRoadChartsKitSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrendRoadChartsKitSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrendRoadChartsKitSampleTests/Pods-TrendRoadChartsKitSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA88F59921F303C600CA3569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2693180A1B10E990A0DCBF48 /* libPods-TrendRoadChartsKitSample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA88F5B121F303C800CA3569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59C3867B799B97517363EE98 /* libPods-TrendRoadChartsKitSampleTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA88F5BC21F303C800CA3569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0EA92FCC1D94DB5809A8BF2 /* libPods-TrendRoadChartsKitSampleUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5438700298D8DD17A582DF76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34B48591800DFDF6A5DD229F /* Pods-TrendRoadChartsKitSample.debug.xcconfig */,
+				DEF14E9FB3D2F6F9F97A3BBF /* Pods-TrendRoadChartsKitSample.release.xcconfig */,
+				572268F082E8C67531C6428B /* Pods-TrendRoadChartsKitSampleTests.debug.xcconfig */,
+				F56651E960EF55A77EE838D2 /* Pods-TrendRoadChartsKitSampleTests.release.xcconfig */,
+				B2BC8DB29EB0591956F9B82B /* Pods-TrendRoadChartsKitSampleUITests.debug.xcconfig */,
+				F4C769916324535CBD355A3E /* Pods-TrendRoadChartsKitSampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0298DBA4A76BBF714005375 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2CE391382A19CC208A70011 /* libPods-TrendRoadChartsKitSample.a */,
+				DAC6BD724F3DFE9D5AD74FD2 /* libPods-TrendRoadChartsKitSampleTests.a */,
+				1ADD2B49562D9859BF08FBE2 /* libPods-TrendRoadChartsKitSampleUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA7747AE21F3101600C6A4DE /* TrendRoadChartsKit */ = {
+			isa = PBXGroup;
+			children = (
+				EA7747AF21F3101600C6A4DE /* Core */,
+				EA7747B121F3101600C6A4DE /* Util */,
+				EA7747B321F3101600C6A4DE /* Charts */,
+			);
+			name = TrendRoadChartsKit;
+			path = ../TrendRoadChartsKit;
+			sourceTree = "<group>";
+		};
+		EA7747AF21F3101600C6A4DE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				EA7747B021F3101600C6A4DE /* readme.txt */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		EA7747B121F3101600C6A4DE /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				EA7747B221F3101600C6A4DE /* readme.txt */,
+				EA7747B821F3109700C6A4DE /* LTLogTool.h */,
+				EA7747B921F3109700C6A4DE /* LTLogTool.m */,
+				EA7747BB21F3124E00C6A4DE /* NSArray+LTTool.h */,
+				EA7747BC21F3124E00C6A4DE /* NSArray+LTTool.m */,
+				EA7747BE21F3162200C6A4DE /* NSDictionary+LTTool.h */,
+				EA7747BF21F3162200C6A4DE /* NSDictionary+LTTool.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		EA7747B321F3101600C6A4DE /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				EA7747B421F3101600C6A4DE /* readme.txt */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		EA88F59321F303C600CA3569 = {
+			isa = PBXGroup;
+			children = (
+				EA7747AE21F3101600C6A4DE /* TrendRoadChartsKit */,
+				EA88F59E21F303C600CA3569 /* TrendRoadChartsKitSample */,
+				EA88F5B721F303C800CA3569 /* TrendRoadChartsKitSampleTests */,
+				EA88F5C221F303C800CA3569 /* TrendRoadChartsKitSampleUITests */,
+				EA88F59D21F303C600CA3569 /* Products */,
+				5438700298D8DD17A582DF76 /* Pods */,
+				C0298DBA4A76BBF714005375 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA88F59D21F303C600CA3569 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA88F59C21F303C600CA3569 /* TrendRoadChartsKitSample.app */,
+				EA88F5B421F303C800CA3569 /* TrendRoadChartsKitSampleTests.xctest */,
+				EA88F5BF21F303C800CA3569 /* TrendRoadChartsKitSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA88F59E21F303C600CA3569 /* TrendRoadChartsKitSample */ = {
+			isa = PBXGroup;
+			children = (
+				EA88F59F21F303C600CA3569 /* AppDelegate.h */,
+				EA88F5A021F303C600CA3569 /* AppDelegate.m */,
+				EA88F5A221F303C600CA3569 /* ViewController.h */,
+				EA88F5A321F303C600CA3569 /* ViewController.m */,
+				EA88F5A521F303C600CA3569 /* Main.storyboard */,
+				EA88F5A821F303C800CA3569 /* Assets.xcassets */,
+				EA88F5AA21F303C800CA3569 /* LaunchScreen.storyboard */,
+				EA88F5AD21F303C800CA3569 /* Info.plist */,
+				EA88F5AE21F303C800CA3569 /* main.m */,
+			);
+			path = TrendRoadChartsKitSample;
+			sourceTree = "<group>";
+		};
+		EA88F5B721F303C800CA3569 /* TrendRoadChartsKitSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA88F5B821F303C800CA3569 /* TrendRoadChartsKitSampleTests.m */,
+				EA88F5BA21F303C800CA3569 /* Info.plist */,
+			);
+			path = TrendRoadChartsKitSampleTests;
+			sourceTree = "<group>";
+		};
+		EA88F5C221F303C800CA3569 /* TrendRoadChartsKitSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA88F5C321F303C800CA3569 /* TrendRoadChartsKitSampleUITests.m */,
+				EA88F5C521F303C800CA3569 /* Info.plist */,
+			);
+			path = TrendRoadChartsKitSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA88F59B21F303C600CA3569 /* TrendRoadChartsKitSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA88F5C821F303C800CA3569 /* Build configuration list for PBXNativeTarget "TrendRoadChartsKitSample" */;
+			buildPhases = (
+				624C18D2AA4A449F17D3EF75 /* [CP] Check Pods Manifest.lock */,
+				EA88F59821F303C600CA3569 /* Sources */,
+				EA88F59921F303C600CA3569 /* Frameworks */,
+				EA88F59A21F303C600CA3569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrendRoadChartsKitSample;
+			productName = TrendRoadChartsKitSample;
+			productReference = EA88F59C21F303C600CA3569 /* TrendRoadChartsKitSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA88F5B321F303C800CA3569 /* TrendRoadChartsKitSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA88F5CB21F303C800CA3569 /* Build configuration list for PBXNativeTarget "TrendRoadChartsKitSampleTests" */;
+			buildPhases = (
+				4E70E4D2F4D1FECB94AF755A /* [CP] Check Pods Manifest.lock */,
+				EA88F5B021F303C800CA3569 /* Sources */,
+				EA88F5B121F303C800CA3569 /* Frameworks */,
+				EA88F5B221F303C800CA3569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA88F5B621F303C800CA3569 /* PBXTargetDependency */,
+			);
+			name = TrendRoadChartsKitSampleTests;
+			productName = TrendRoadChartsKitSampleTests;
+			productReference = EA88F5B421F303C800CA3569 /* TrendRoadChartsKitSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA88F5BE21F303C800CA3569 /* TrendRoadChartsKitSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA88F5CE21F303C800CA3569 /* Build configuration list for PBXNativeTarget "TrendRoadChartsKitSampleUITests" */;
+			buildPhases = (
+				11F0A01F88776F30966F9860 /* [CP] Check Pods Manifest.lock */,
+				EA88F5BB21F303C800CA3569 /* Sources */,
+				EA88F5BC21F303C800CA3569 /* Frameworks */,
+				EA88F5BD21F303C800CA3569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA88F5C121F303C800CA3569 /* PBXTargetDependency */,
+			);
+			name = TrendRoadChartsKitSampleUITests;
+			productName = TrendRoadChartsKitSampleUITests;
+			productReference = EA88F5BF21F303C800CA3569 /* TrendRoadChartsKitSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA88F59421F303C600CA3569 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Lonely traveller";
+				TargetAttributes = {
+					EA88F59B21F303C600CA3569 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					EA88F5B321F303C800CA3569 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EA88F59B21F303C600CA3569;
+					};
+					EA88F5BE21F303C800CA3569 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EA88F59B21F303C600CA3569;
+					};
+				};
+			};
+			buildConfigurationList = EA88F59721F303C600CA3569 /* Build configuration list for PBXProject "TrendRoadChartsKitSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA88F59321F303C600CA3569;
+			productRefGroup = EA88F59D21F303C600CA3569 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA88F59B21F303C600CA3569 /* TrendRoadChartsKitSample */,
+				EA88F5B321F303C800CA3569 /* TrendRoadChartsKitSampleTests */,
+				EA88F5BE21F303C800CA3569 /* TrendRoadChartsKitSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA88F59A21F303C600CA3569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7747B721F3101600C6A4DE /* readme.txt in Resources */,
+				EA7747B621F3101600C6A4DE /* readme.txt in Resources */,
+				EA88F5AC21F303C800CA3569 /* LaunchScreen.storyboard in Resources */,
+				EA88F5A921F303C800CA3569 /* Assets.xcassets in Resources */,
+				EA7747B521F3101600C6A4DE /* readme.txt in Resources */,
+				EA88F5A721F303C600CA3569 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA88F5B221F303C800CA3569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA88F5BD21F303C800CA3569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11F0A01F88776F30966F9860 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrendRoadChartsKitSampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E70E4D2F4D1FECB94AF755A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrendRoadChartsKitSampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		624C18D2AA4A449F17D3EF75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TrendRoadChartsKitSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA88F59821F303C600CA3569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA7747BA21F3109700C6A4DE /* LTLogTool.m in Sources */,
+				EA88F5A421F303C600CA3569 /* ViewController.m in Sources */,
+				EA88F5AF21F303C800CA3569 /* main.m in Sources */,
+				EA88F5A121F303C600CA3569 /* AppDelegate.m in Sources */,
+				EA7747C021F3162200C6A4DE /* NSDictionary+LTTool.m in Sources */,
+				EA7747BD21F3124E00C6A4DE /* NSArray+LTTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA88F5B021F303C800CA3569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA88F5B921F303C800CA3569 /* TrendRoadChartsKitSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA88F5BB21F303C800CA3569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA88F5C421F303C800CA3569 /* TrendRoadChartsKitSampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA88F5B621F303C800CA3569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA88F59B21F303C600CA3569 /* TrendRoadChartsKitSample */;
+			targetProxy = EA88F5B521F303C800CA3569 /* PBXContainerItemProxy */;
+		};
+		EA88F5C121F303C800CA3569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA88F59B21F303C600CA3569 /* TrendRoadChartsKitSample */;
+			targetProxy = EA88F5C021F303C800CA3569 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA88F5A521F303C600CA3569 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA88F5A621F303C600CA3569 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA88F5AA21F303C800CA3569 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA88F5AB21F303C800CA3569 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA88F5C621F303C800CA3569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA88F5C721F303C800CA3569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA88F5C921F303C800CA3569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34B48591800DFDF6A5DD229F /* Pods-TrendRoadChartsKitSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TrendRoadChartsKitSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lonely4flow.TrendRoadChartsKitSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA88F5CA21F303C800CA3569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEF14E9FB3D2F6F9F97A3BBF /* Pods-TrendRoadChartsKitSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TrendRoadChartsKitSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lonely4flow.TrendRoadChartsKitSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA88F5CC21F303C800CA3569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 572268F082E8C67531C6428B /* Pods-TrendRoadChartsKitSampleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrendRoadChartsKitSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lonely4flow.TrendRoadChartsKitSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrendRoadChartsKitSample.app/TrendRoadChartsKitSample";
+			};
+			name = Debug;
+		};
+		EA88F5CD21F303C800CA3569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F56651E960EF55A77EE838D2 /* Pods-TrendRoadChartsKitSampleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrendRoadChartsKitSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lonely4flow.TrendRoadChartsKitSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrendRoadChartsKitSample.app/TrendRoadChartsKitSample";
+			};
+			name = Release;
+		};
+		EA88F5CF21F303C800CA3569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2BC8DB29EB0591956F9B82B /* Pods-TrendRoadChartsKitSampleUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrendRoadChartsKitSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lonely4flow.TrendRoadChartsKitSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrendRoadChartsKitSample;
+			};
+			name = Debug;
+		};
+		EA88F5D021F303C800CA3569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C769916324535CBD355A3E /* Pods-TrendRoadChartsKitSampleUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TrendRoadChartsKitSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lonely4flow.TrendRoadChartsKitSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TrendRoadChartsKitSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA88F59721F303C600CA3569 /* Build configuration list for PBXProject "TrendRoadChartsKitSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA88F5C621F303C800CA3569 /* Debug */,
+				EA88F5C721F303C800CA3569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA88F5C821F303C800CA3569 /* Build configuration list for PBXNativeTarget "TrendRoadChartsKitSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA88F5C921F303C800CA3569 /* Debug */,
+				EA88F5CA21F303C800CA3569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA88F5CB21F303C800CA3569 /* Build configuration list for PBXNativeTarget "TrendRoadChartsKitSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA88F5CC21F303C800CA3569 /* Debug */,
+				EA88F5CD21F303C800CA3569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA88F5CE21F303C800CA3569 /* Build configuration list for PBXNativeTarget "TrendRoadChartsKitSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA88F5CF21F303C800CA3569 /* Debug */,
+				EA88F5D021F303C800CA3569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA88F59421F303C600CA3569 /* Project object */;
+}
